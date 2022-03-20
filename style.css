@@ -13,24 +13,45 @@ body{
 }
 
 .container{
-    border: 1rem solid black;
+    background: white;
     width: 20%;
     height: 70vh;
     margin: auto;
     margin-top: 15rem;
     display: flex;
     flex-direction: column;
+    border-radius: 2rem;
 }
 
 .img{
+    height: 60%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.img img{
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.text{
     height: 50%;
     width: 90%;
     margin: auto;
     margin-top: 2.5rem;
 }
 
-.img img{
-    height: 100%;
-    width: 100%;
+.text h1{
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
+.text p{
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
