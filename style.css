@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    width: 47vh;
+    max-width: 47vh;
     background: white;
     margin: auto;
     margin-top: 10rem;
