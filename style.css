@@ -6,6 +6,8 @@
 
 html{
     font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
 }
 
 body{
@@ -14,10 +16,9 @@ body{
 
 .container{
     background: white;
-    width: 20%;
-    height: 70vh;
+    width: 47vh;
     margin: auto;
-    margin-top: 15rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
@@ -37,8 +38,6 @@ body{
 }
 
 .text{
-    height: 50%;
-    width: 90%;
     margin: auto;
     margin-top: 2.5rem;
 }
